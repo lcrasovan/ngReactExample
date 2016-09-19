@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="ISO-8859-1">
+    <title>Listing properties page</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+    <link rel="stylesheet" href="styles/listing.css">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  </head>
+  <body ng-app="app" ng-controller="mainCtrl">
+    <div class="content">
+      <header>
+        <h1>Rental properties Listing (version Angular + React)</h1>
+      </header>
+      <div class="filters">
+        <select class="filters-ordering" ng-model="selectedCriterium" ng-change="orderingChanged(selectedCriterium)"
+                data-ng-options="orderingCriterium as orderingCriterium.name for orderingCriterium in orderingCriteria">
+          <option value="">By default</option>
+        </select>
+
+        <label class="filters-search">Search: <input ng-change="searchTextChanged()" ng-model="searchedText"></label>
+      </div>
+
+      <section>
+        <div class="list">
+          <div><listing properties="properties"/></div>
+        </div>
+      </section>
+    </div>
+
+    <script src="../../bower_components/angular/angular.js"></script>
+    <script src="../../bower_components/react/react.js"></script>
+    <script src="../../bower_components/react/react-dom.js"></script>
+
+    <script src="../../ngReact.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

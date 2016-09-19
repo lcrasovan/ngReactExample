@@ -1,0 +1,96 @@
+.content {
+    margin: 0 auto;
+    width: 100%;
+    float: left;
+    margin-bottom: 50px;
+}
+h1 {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.list {
+    width: 100%;
+    margin: 0 auto;
+    float: left;
+    border-bottom: 1px solid #eee;
+    background: #fff;
+}
+.my-list {
+    list-style-type: none;
+}
+.my-property-box {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+    text-align: left;
+}
+p.description {
+    font-size: 12px;
+    width: 100%;
+    float:left;
+    display: inline-block;
+}
+.image-container {
+    width: 28%;
+    float:left;
+}
+.main-info-container {
+    width: 70%;
+    float:left;
+    margin-left: 2%;
+    display: block;
+}
+.property-box-header {
+    border-top: 1px solid #000000;
+    margin-bottom: 10px;
+    float: left;
+    width: 100%;
+}
+.property-box-main {
+    float: left;
+    width: 100%;
+}
+.property-title {
+    float: left;
+    width: 79%;
+    font-variant: small-caps;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 15px;
+    vertical-align: baseline;
+    line-height: 20px;
+}
+.filters {
+    width: 100%;
+    float: left;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.filters-ordering, .filters-search {
+    margin-left: 40px;
+}
+
+
+.property-price {
+    float: left;
+    margin-right: 1%;
+    margin-top: 15px;
+    width: 20%;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    vertical-align: baseline;
+}
+
+.property-price:after {
+    content:'\20AC';
+}
+
+listing {
+    margin: 0px!important;
+    white-space: normal!important;
+    display: inline-block!important;
+    font-family: "Helvetic Neue", Helvetica, Arial;
+}

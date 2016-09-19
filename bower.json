@@ -1,0 +1,23 @@
+{
+  "name": "ngReact",
+  "version": "0.2.0",
+  "main": "ngReact.js",
+  "description": "Example Using React Components in Angular",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidchang/ngReact.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "angular": "<2.0.0",
+    "react": ">=0.15.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "angularjs",
+    "angular",
+    "react",
+    "ngReact"
+  ]
+}
